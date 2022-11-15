@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(199, 194, 194);
+    color: #fff;
+    
+   }
+   .list{
+    list-style: none;
+   }
+   li{
+    display: inline;
+   }
+
+li{
+    list-style: none;
+}
+.contact{
+    margin-top: 20px;
+    background-size: auto;
+   padding: 20px;
+    text-align: center;
+    background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   box-sizing: border-box;
+    width: 50%;
+   margin: auto;
+   border-radius: 25px;
+}
+#btn-submit{
+    margin-right: 288px;
+}
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+textarea{
+    width: 350px;
+}
+
+#imgiscription1{
+    font-size: 25px;
+}
+#paragraph_imgiscription1{
+    font-size: 20px;
+}
+
+.tote_discription .discription{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    gap: 2rem;
+   
+}
+.tote_discription .discription img {
+    width: 100%;
+}
+
+
+#search {
+    margin-left: 0px;
+    background-color: transparent;
+    width: 100%;
+    color: black;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 7px;
+    padding: 1em;
+
+}
+.shop-cover {
+   
+    background-size: cover;
+    /* height: 20vh; */
+    padding-top: 20vh;
+    text-align: left;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.search-filed {
+    width: 75%;
+    height: 3rem;
+    display: flex;
+    background: rgba(237, 237, 237, 0.96);
+    margin: auto;
+    border-radius: 27px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.09);
+    border-image: initial;
+}
+.contener .plat .prix .icon{
+    align-items: center;
+    border: solid;
+}
+ .contener{
+    margin-left: 10%;
+    background: rgb(242, 230, 172);
+    border-radius: 5%;
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+ }
+.welcome{
+    text-align: center;
+    margin-top: 200px;
+}
+#con1{
+    padding-top: 100px;
+    text-align: center;
+    background-size: 100%;
+  
+}
+#le_nom_de_menu{
+    margin: 0;
+    text-align: center;
+    padding-top: 150px;
+}
+.products{
+display: grid;
+grid-template-rows: auto auto auto ;
+grid-template-columns: auto auto auto;
+text-align: center;
+align-items: center;
+}
