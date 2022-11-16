@@ -1,113 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
+
+* {
     font-family: 'Poppins', sans-serif;
 }
-body{
-    margin: 0;
-    
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgb(199, 194, 194);
-    color: #fff;
-    
-   }
-   .list{
-    list-style: none;
-   }
-   li{
-    display: inline;
-   }
 
-li{
+body {
+    margin: 0;
+
+}
+
+.list {
     list-style: none;
 }
-.contact{
-    margin-top: 20px;
+
+li {
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+
+.contact {
+  
     background-size: auto;
-   padding: 20px;
+    padding: 20px;
     text-align: center;
     background-color: bisque;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   box-sizing: border-box;
+    box-sizing: border-box;
     width: 50%;
-   margin: auto;
-   border-radius: 25px;
-}
-#btn-submit{
-    margin-right: 288px;
-}
-article {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    margin: auto;
+    border-radius: 25px;
 }
 
-textarea{
+#btn-submit {
+    margin-right: 288px;
+}
+
+textarea {
     width: 350px;
 }
 
-#imgiscription1{
+#imgiscription1 {
     font-size: 25px;
 }
-#paragraph_imgiscription1{
+
+#paragraph_imgiscription1 {
     font-size: 20px;
 }
 
-.tote_discription .discription{
+.toute_discription .discription {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 100px;
     gap: 2rem;
-   
-}
-.tote_discription .discription img {
-    width: 100%;
-}
-
-
-#search {
-    margin-left: 0px;
-    background-color: transparent;
-    width: 100%;
-    color: black;
-    font-weight: 500;
-    border-style: none;
-    border-radius: 7px;
-    padding: 1em;
-
-}
-.shop-cover {
-   
-    background-size: cover;
-    /* height: 20vh; */
-    padding-top: 20vh;
-    text-align: left;
-    width: 100%;
-    background-repeat: no-repeat;
-}
-.search-filed {
-    width: 75%;
-    height: 3rem;
-    display: flex;
-    background: rgba(237, 237, 237, 0.96);
-    margin: auto;
-    border-radius: 27px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.09);
-    border-image: initial;
-}
-.contener .plat .prix .icon{
     align-items: center;
-    border: solid;
+  text-align: center;
+
 }
- .contener{
-    margin-left: 10%;
+
+.contener {
     background: rgb(242, 230, 172);
     border-radius: 5%;
     width: fit-content;
@@ -116,26 +69,114 @@ textarea{
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
- }
-.welcome{
+}
+
+.welcome {
     text-align: center;
     margin-top: 200px;
 }
-#con1{
+
+#con1 {
     padding-top: 100px;
     text-align: center;
     background-size: 100%;
-  
+
 }
-#le_nom_de_menu{
+
+#le_nom_de_menu {
     margin: 0;
     text-align: center;
     padding-top: 150px;
 }
-.products{
-display: grid;
-grid-template-rows: auto auto auto ;
-grid-template-columns: auto auto auto;
-text-align: center;
-align-items: center;
+
+.les-salad {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.les-plats {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.les-obento {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+#cart-d-achat{
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: red;
+    position: fixed;
+    top: 99px;
+}
+
+@media all and (max-width: 914px) {
+    .les-salad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .les-plats {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .les-obento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #le_nom_de_menu {
+        margin: 0;
+        text-align: center;
+        padding-top: 150px;
+        align-items: center;
+    }
+    .toute_discription .discription {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+
+}
+
+.ourstory {
+    margin-top: 76px;
+    text-align: center;
+    background-image: url(/imgs/Story-July-21-16-1920x1080.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    height: 296px;
+    color: white;
+    align-items: center;
+}
+.les-plats-toute{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#img-chef{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.chefs{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+padding: 6rem 10rem 0rem;
+}
+.mone-chef{
+    width: 300px;
 }
